@@ -12,17 +12,21 @@
 /** {
     border: 1px solid red;
 }*/
+body {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
 
 h1 {
     font-family: 'Samurai Warrior';
     color: #f7971e;
-    font-size: 300px;
+    font-size: 500px;
 	text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
+       3px 3px 3px #000;
+     /*-1px -1px 0 #000,  
       1px -1px 0 #000,
       -1px 1px 0 #000,
-       1px 1px 0 #000;		
+       1px 1px 0 #000;	*/
 }
 
 h3 {
@@ -30,9 +34,20 @@ h3 {
     font-size: 30px; 
     font-weight: 700;
     text-shadow:
-       3px 3px 0 white,
-     -1px -1px 0 white,  
+       1px 1px 1px #f7971e;
+     /*-1px -1px 0 white,  
       1px -1px 0 white,
       -1px 1px 0 white
-       1px 1px 0 white;	
+       1px 1px 0 white;*/	
+}
+
+h4 {
+    font-family: 'Samurai Warrior';
+    color: #f7971e;
+    font-size: 40px;
+}
+
+.btn-orange {
+    background-color: #f7971e;
+    color: white;
 }
