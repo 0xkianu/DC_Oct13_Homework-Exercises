@@ -51,3 +51,12 @@ h4 {
     background-color: #f7971e;
     color: white;
 }
+
+.btn-info:hover {
+    background-color: transparent;
+    border-color: black;
+}
+
+.btn-info {
+    border-color: #f7971e;
+}
