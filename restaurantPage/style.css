@@ -29,6 +29,19 @@ h1 {
        1px 1px 0 #000;	*/
 }
 
+h2 {
+    font-family: 'Samurai Warrior';
+    color: #f7971e;
+    font-size: 300px;
+	text-shadow:
+       3px 3px 3px #000;
+     /*-1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;	*/
+}
+
+
 h3 {
     font-family: 'Merienda', cursive;
     font-size: 30px; 
@@ -45,11 +58,14 @@ h4 {
     font-family: 'Samurai Warrior';
     color: #f7971e;
     font-size: 40px;
+    margin-left: 15px;
 }
 
 .btn-orange {
     background-color: #f7971e;
     color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .btn-info:hover {
@@ -59,4 +75,237 @@ h4 {
 
 .btn-info {
     border-color: #f7971e;
+}
+
+.navbar-container {
+    height:5vh; 
+    background-color: black;
+}
+
+.nav-list {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.main-container {
+    height:93vh;
+}
+.main-secondary-container {
+    height:93vh;
+}
+
+#main-page-content {
+    height: 100%; 
+    width: 85%; 
+    background-image: url('images/bamboo3.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 40%
+}
+
+#about-us-banner {
+    background-image: url('images/aboutUs6.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: cover; 
+    background-size: 100%; 
+    background-attachment: fixed; 
+    height: 400px;
+} 
+
+#about-us-img3 {
+    margin: 50px 10px 0 10px;
+}
+
+#about-us-img1 {
+    margin: 50px 10px 10px 10px; 
+    width: 800px; 
+    height: auto;
+}
+
+#press-main-container {
+    height:93%;
+}
+
+#press-secondary-container {
+    margin-top: 0px; 
+    height: 100%; 
+    width: 100%; 
+    background-image: url('images/food2.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: cover; 
+    background-size: 100%
+}
+
+.review-column {
+    width: 85%; 
+    height: auto; 
+    opacity: 75%; 
+    background-color: #f7971e; 
+    margin-bottom: 50px;
+}
+
+.menu-main-container {
+    height:93vh;
+}
+
+.menu-secondary-container {
+    height: 100%; 
+    width: 100%; 
+    background-image: url('images/food1.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: cover; 
+    background-size: 100%;
+}
+
+.menu-doc {
+    width: 45%; 
+    height: 100%;
+}
+
+@media only screen and (max-width: 300px) {
+    h1 {
+        font-size: 100px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    h2 {
+        font-size: 100px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    h3 {
+        font-size: 15px; 
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .list-inline {
+        font-size: 8px;
+    }
+
+    .btn-orange {
+        font-size: 9px;
+        margin-top: 5px;
+    }
+
+    .nav-list {
+        margin: 2px;
+    }
+
+    .menu-secondary-container {
+        flex-direction: column;
+    }
+
+    .menu-doc {
+        width: 90%;
+    }
+
+    .press-img {
+        width: 50px;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 480px) {
+    h1 {
+        font-size: 100px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    h2 {
+        font-size: 100px;
+        text-shadow: 1px 1px 1px #000;
+    }
+    h3 {
+        font-size: 15px; 
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .list-inline {
+        font-size: 9px;
+    }
+
+    .btn-orange {
+        font-size: 9px;
+        margin-top: 5px;
+    }
+
+    .nav-list {
+        margin: 2px;
+    }
+
+    .menu-secondary-container {
+        flex-direction: column;
+    }
+
+    .menu-doc {
+        width: 90%;
+    }
+
+    .press-img {
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 540px) {
+    h1 {
+        font-size: 200px;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    h2 {
+        font-size: 200px;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .btn-orange {
+        margin-top: 5px;
+    }
+
+    .list-inline {
+        font-size: 11px;
+    }
+
+    .btn-orange {
+        font-size: 9px;
+        margin-top: 5px;
+    }
+
+    .nav-list {
+        margin: 2px;
+    }
+
+    .menu-secondary-container {
+        flex-direction: column;
+    }
+
+    .menu-doc {
+        width: 90%;
+    }
+}
+
+
+
+@media only screen and (min-width: 541px) and (max-width: 950px) {
+    h1 {
+        font-size: 250px;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    h1 {
+        font-size: 150px;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    .btn-orange {
+        margin-top: 5px;
+    }
+    
 }
