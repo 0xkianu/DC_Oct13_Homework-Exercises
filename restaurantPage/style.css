@@ -311,5 +311,13 @@ h4 {
     .btn-orange {
         margin-top: 5px;
     }
+
+    .menu-doc {
+        width: 90%;
+    }
+
+    .menu-secondary-container {
+        flex-direction: column;
+    }
     
 }
